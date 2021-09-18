@@ -1,0 +1,28 @@
+Pass:
+- có login/logout
+- pass được mã hóa
+- DB có tối thiểu 5 bảng: user, category, product, order, order_detail
+và tạo relationship giữa các bảng liên quan. Tuy nhiên không cần 
+implement code cho phần order
+- có 2 giao diện: customer & admin 
+- customer không cần login chỉ xem được danh mục
+và sản phẩm
+- admin có các quyền CRUD (Create, Read, Update, Delete)
+cho danh mục và sản phẩm
+- lọc sản phẩm theo danh mục (category_detail)
+- hiển thị thông tin chi tiết của sản phẩm (product_detail)
+- giao diện rõ ràng, dễ nhìn 
+- data validation ở mức độ cơ bản (VD: check empty, check độ dài)
+
+Merit/Distinction:
+- thỏa mãn các tiêu chí của phần Pass
+- giao diện đẹp
+- có chức năng giỏ hàng (shopping cart), order sản phẩm
+- data validation phức tạp và cụ thể hơn
+- quản lý order (accept hay reject order)
+- có chức năng search
+- tạo tài khoản cho khách hàng để order sản phẩm
+- có phân quyền (customer, admin, staff, manager,...)
+
+
+
